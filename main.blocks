@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="J;meqI0Y%=!aW4XVC[z(">m</variable></variables><block type="pxt-on-start" id="Fzb39G.$ym^]xFt@Pxyn" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="^:vv:?]E+meDgh9vEK*%"><field name="VAR" id="J;meqI0Y%=!aW4XVC[z(">m</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Mp!v7,Y_+DLvNrpJDA+x"><value name="img"><shadow type="screen_image_picker" id="9]:EKkzX1kU_Lc[sNJKw"><field name="img">img`
+. f f . . . . . . . . . . f f . 
+. f f . . . . . . . . . . f f . 
+. 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
+. 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
+. 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
+. 2 2 2 9 9 2 2 2 2 2 9 9 2 2 . 
+. 2 2 2 9 9 2 2 2 2 2 9 9 2 2 . 
+. 2 2 2 9 9 2 2 2 2 2 9 9 2 2 . 
+. 2 2 2 9 9 2 2 2 2 2 9 9 2 2 . 
+. 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
+. 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
+. 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
+. f f . . . . . . . . . . f f . 
+. f f . . . . . . . . . . f f . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value></block></value><next><block type="game_control_sprite" id=",eaz)J;fJe,6WjZ`rV.?"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><shadow type="variables_get" id="_UHhzs+tykaN*`EZ;)ZD"><field name="VAR" id="J;meqI0Y%=!aW4XVC[z(">m</field></shadow></value><next><block type="gamesetbackgroundcolor" id="6TB9=5o+Zro7~yP_m1P9"><value name="color"><shadow type="colorindexpicker" id="teJ_k|!Xq;gs}O-9yuZy"><field name="index">7</field></shadow></value></block></next></block></next></block></statement></block></xml>
