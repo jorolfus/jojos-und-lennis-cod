@@ -1,3 +1,13 @@
+scene.setBackgroundColor(7)
+
+let b = image.create(160, 120)
+b.fillRect(10, 10, 20, 100, 15)
+b.fillRect(10, 90, 130, 20, 15)
+b.fillRect(130, 10, 20, 100, 15)
+b.fillRect(10, 10, 130, 20, 15)
+
+let bb = sprites.create(b, SpriteKind.Enemy)
+
 let m = sprites.create(img`
     . 8 8 . . . . . . . . . . 8 8 .
     . 8 8 . . . . . . . . . . 8 8 .
@@ -15,21 +25,15 @@ let m = sprites.create(img`
     . 8 8 . . . . . . . . . . 8 8 .
     . . . . . . . . . . . . . . . .
     . . . . . . . . . . . . . . . .
-`, 0)
+`, SpriteKind.Player)
 m.setPosition(140, 60)
-controller.moveSprite(m)
-scene.setBackgroundColor(7)
-let b = image.create(160, 120)
-b.fillRect(10, 10, 20, 100, 15)
-b.fillRect(10, 90, 130, 20, 15)
-b.fillRect(130, 10, 20, 100, 15)
-b.fillRect(10, 10, 130, 20, 15)
 
-scene.setBackgroundImage(b)
-
-
-
-
+forever(function () {
+    if (m.overlapsWith(bb)) 
+      controller.moveSprite(m, 60, 60)
+    else
+      controller.moveSprite(m, 20, 20)
+})
 
 
 /*
